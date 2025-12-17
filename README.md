@@ -28,9 +28,9 @@ Tools to export data from Phoenix and import it into Arize AX.
 
 | Data Type | Export Command | Import Command | Warnings & Limitations |
 |-----------|---------------|----------------|------------------------|
-| **All Types** | `python export_all_projects.py --all` | `python import_to_arize.py --all` | • Follows import order: datasets-experiments → traces (with evaluations and annotations) |
+| **All Types** | `python export_all_projects.py --all` | `python import_to_arize.py --all` | • Follows order: datasets-experiments → traces (with evaluations and annotations) |
 | **Datasets & Experiments** | `python export_all_projects.py --de` | `python import_to_arize.py --de` | • Experiment evaluations not yet migrated |
-| **Traces** | `python export_all_projects.py --traces` | `python import_to_arize.py --traces` | • Contains traces, evaluation, and annotations |
+| **Project Traces** | `python export_all_projects.py --traces` | `python import_to_arize.py --traces` | • Contains traces, evaluation, and annotations |
 
 ## Important Info for Annotations
 
