@@ -1,0 +1,8 @@
+httpx==0.28.1
+python-dotenv==1.2.1
+tqdm==4.67.1
+pandas==2.3.3
+pyarrow==22.0.0
+arize[Datasets,PromptHub]==7.51.2
+arize-phoenix-client==1.27.0
+packaging==25.0
